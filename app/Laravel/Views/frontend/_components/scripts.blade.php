@@ -18,7 +18,7 @@
         if(timeleft <= 0){
             clearInterval(downloadTimer);
             document.getElementById("countdown").innerHTML = "00";
-            changeClass();
+            // changeClass();
         } else {
             document.getElementById("countdown").innerHTML = padTo2Digits(timeleft);
         }
